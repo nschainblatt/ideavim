@@ -47,3 +47,7 @@ set incsearch
 " Half page up and down, automatic screen centering around cursor
 nnoremap <C-u> <C-u>zz
 nnoremap <C-d> <C-d>zz
+
+" Remap default up and down one line to also move the cursor the same direction and center the page
+nnoremap <C-e> <C-e>jzz
+nnoremap <C-y> <C-y>kzz
