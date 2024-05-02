@@ -51,3 +51,10 @@ nnoremap <C-d> <C-d>zz
 " Remap default up and down one line to also move the cursor the same direction and center the page
 nnoremap <C-e> <C-e>jzz
 nnoremap <C-y> <C-y>kzz
+
+" Add single and double quotes as matching delimiter pairs
+set matchpairs+=\':\',\":\"
+
+" Relative and regular line numbers
+set number
+set relativenumber
